@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    margin-left: 40%;
+}
+h2{
+    margin: 2%;
+    text-align: center;
+}
+input{
+    margin-bottom: 2%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid red;
+}
+h4{
+    margin-bottom: 2%;
+}
+textarea{
+    margin-bottom: 2%;
+}
+button{
+    color: red;
+    border: none;
+    background: none;
+    margin-right: 70%;
+}
+
+
+
+@media (max-width: 500px){
+    .madonna{
+        line-height: 40px;
+    }
+    form{
+        padding-left: 5%;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
